@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+
+.navbar {
+  padding: 1rem;
+  
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+  color: black;
+  
+}
+
+.carousel-inner img {
+  width: 100% ;
+  height: 100%;
+
+}
+
+.carousel-caption{
+  position : absolute;
+  top :50%;
+  transform : translateY(-50%);
+
+}
+
+.carousel-caption h1
+ {
+   font-size :500%;
+   text-shadow: 1px 1px 10px #e01919;
+  
+ }
+
+ .carousel-caption h3
+ {
+   font-size :200%;
+
+   text-shadow: 1px 1px 10px #000000;
+   padding-bottom : 1rem;
+ }
+
+.jumbotron {
+padding : 1rem;
+border-radius : 0;
+background-color: rgba(188, 143, 143, 0.719);
+  color: black;
+/*color: rgba(128, 0, 128, 0.575);*/
+
+}
+
+.text {
+  color: rgba(255, 217, 0, 0.89)
+}
+
+.sd-text {
+  color: black;
+}
+
+.welcome {
+  width : 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  color:  rgba(128, 0, 128, 0.575);
+
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  position: center;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/back.png');
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  background-position: center center;
+  
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+.textarea {
+  width: 700px;
+  height: 100px;
+}
+.cont {
+  margin-left: 2em;
+}
+.textposition {
+ text-align: center;
+color: purple;
+}
+.body { overflow: hidden;
+    margin-left: 2em; }
+.column { float: left; }
+.half { width: 50%; }
+.last { float: none; width: auto; }
+
+
+.flex {
+  display: flex;
+  flex-direction: row !important;
+}
+
+.flex .form-control {
+  width: 1000px !important;
+}
+.thrd-text {
+  color: purple;
+  font-size: 1.5em !important;
+  margin-left: 7em;
+}
+
+.set-backround {
+  background-image: url("./img/background.png");
+  height: 100vh;
+}
+
+.price {
+  position: relative;
+  left : 200px;
+  top : -37px;
+  line-height : 40px;
+  border-radius : 6px;
+  margin-left: 5em;
+  font-size: 16px;
+}
+
+.frth-text {
+  color: white ;
+  font-size: 1.5em !important;
+  margin-left: 2em;
+}
+
+.regform {
+
+  background-color : rgba(0, 0, 0, 0.6);
+  margin : auto;
+  color : #FFFFFF;
+  padding : 10px 0px 10px 0px;
+  text-align : center;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.main { 
+  background-color: rgba(0, 0, 0, 0.5);
+  width : 600px;
+  margin: auto;
+}
+
+.admin-listing-container {
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: beige;
+
+}
+
+.carousel-control{
+  color: black;
+  background-color: gray;
+  width: 10%;
+  height: 10%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.admin-listing-accept{
+  color: black;
+  background-color: gray;
+  width: 10%;
+  height: 10%;
+  margin-top: auto;
+  margin-left: auto;
+  /* margin-bottom: auto; */
+}
+
+.admin-listing-deny{
+  color: black;
+  background-color: gray;
+  width: 10%;
+  height: 10%;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: auto; */
+}
+
+.admin-listing-buttons {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.survey-container {
+  margin-top: 2em;
+  background-color: antiquewhite;
+}
+
+.survey-form {
+  padding-left: 1em;
+}
+
+.form{
+  display: flex;
+  margin-left: 10px;
+
+}
